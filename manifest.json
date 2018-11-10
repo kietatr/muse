@@ -1,0 +1,13 @@
+{
+ "manifest_version": 2,
+ "name": "muse",
+ "description": "Content Analysis on news",
+ "version": "1",
+ "author": "Yolo Beast",
+"browser_action": {
+   "default_icon": "Muse.png",
+   "default_title": "Muse",
+   "default_popup": "newtab.html"
+ },
+ "permissions": ["activeTab", "<all_urls>"]
+}
